@@ -16,10 +16,10 @@ dependencies {
     jsMainImplementation("org.jetbrains.kotlin-wrappers:kotlin-emotion")
 
     // Video Player
-//    jsMainImplementation(npm("react-player", "2.16.0"))
+    jsMainImplementation(npm("react-player", "2.16.0"))
 
     // Share Buttons
-//    jsMainImplementation(npm("react-share", "5.1.0"))
+    jsMainImplementation(npm("react-share", "5.1.0"))
 
     // Coroutines
     jsMainImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
