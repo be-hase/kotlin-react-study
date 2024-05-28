@@ -7,6 +7,7 @@ dependencies {
     // BOMs
     jsMainImplementation(enforcedPlatform(libs.kotlin.wrappers.bom))
     jsMainImplementation(enforcedPlatform(libs.kotlin.coroutines.bom))
+    jsMainImplementation(enforcedPlatform(libs.kotlin.serialization.bom))
 
     // React, React DOM
     jsMainImplementation("org.jetbrains.kotlin-wrappers:kotlin-react")
@@ -23,4 +24,7 @@ dependencies {
 
     // Coroutines
     jsMainImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
+
+    // Serialization
+    jsMainImplementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
 }

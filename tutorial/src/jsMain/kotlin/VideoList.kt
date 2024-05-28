@@ -22,10 +22,3 @@ external interface VideoListProps : Props {
     var selectedVideo: Video?
     var onSelectVideo: (Video) -> Unit
 }
-
-data class Video(
-    val id: Int,
-    val title: String,
-    val speaker: String,
-    val videoUrl: String,
-)

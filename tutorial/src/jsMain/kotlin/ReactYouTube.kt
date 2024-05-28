@@ -1,4 +1,5 @@
 @file:JsModule("react-player")
+@file:JsNonModule
 
 import react.ComponentClass
 import react.Props
