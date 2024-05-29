@@ -10,4 +10,7 @@ dependencies {
     // React, React DOM
     jsMainImplementation("org.jetbrains.kotlin-wrappers:kotlin-react")
     jsMainImplementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
+
+    // Kotlin React Emotion (CSS)
+    jsMainImplementation("org.jetbrains.kotlin-wrappers:kotlin-emotion")
 }
