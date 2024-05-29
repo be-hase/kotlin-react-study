@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "kotlin-react-study"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
+include("learn")
 include("tutorial")
-include("tutorial2")
