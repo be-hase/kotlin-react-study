@@ -4,5 +4,5 @@ import web.dom.document
 
 fun main() {
     val container = document.getElementById("root") ?: error("Couldn't find root container!")
-    createRoot(container).render(MyApp.create())
+    createRoot(container).render(Game.create())
 }
