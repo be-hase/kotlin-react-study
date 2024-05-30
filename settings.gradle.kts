@@ -16,5 +16,6 @@ rootProject.name = "kotlin-react-study"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include("learn")
+include("thinking-in-react")
 include("tic-tac-toe")
 include("tutorial")
