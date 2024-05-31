@@ -4,5 +4,5 @@ import web.dom.document
 
 fun main() {
     val container = document.getElementById("root") ?: error("Couldn't find root container!")
-    createRoot(container).render(TaskApp.create())
+    createRoot(container).render(Page.create())
 }
