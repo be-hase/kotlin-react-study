@@ -58,12 +58,6 @@ val AddTask = FC<AddTaskProps> { props ->
     }
 }
 
-sealed interface TaskAction {
-    data class Added(val id: Int, val text: String) : TaskAction
-    data class Changed(val task: Task) : TaskAction
-    data class Deleted(val id: Int) : TaskAction
-}
-
 external interface TaskListProps : Props {
     var tasks: List<Task>
     var onChangeTask: (Task) -> Unit
@@ -125,6 +119,12 @@ val TaskComponent = FC<TaskProps> { props ->
             +"Delete"
         }
     }
+}
+
+sealed interface TaskAction {
+    data class Added(val id: Int, val text: String) : TaskAction
+    data class Changed(val task: Task) : TaskAction
+    data class Deleted(val id: Int) : TaskAction
 }
 
 val tasksReducer: Reducer<List<Task>, TaskAction> = { tasks, action ->
