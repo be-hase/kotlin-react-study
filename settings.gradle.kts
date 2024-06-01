@@ -17,6 +17,7 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include("adding-interactivity")
 include("describing-the-ui")
+include("escape-hatches")
 include("learn")
 include("managing-state")
 include("thinking-in-react")
